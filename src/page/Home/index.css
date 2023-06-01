@@ -1,0 +1,46 @@
+body {
+    background-color: #f6f6f6;
+}
+.home-page .top-background {
+    width: 100%;
+    height: 200px;
+    background-color: #fb596c;
+}
+
+.home-page .content {
+    width: 70%;
+    margin: auto;
+    position: relative;
+    top: -60px;
+    display: flex;
+    border-radius: 2px;
+    height: 1000px;
+}
+
+.home-page .main, .home-page .sidebar {
+    background-color: #ffffff;
+    border-radius: 2px;
+}
+
+.home-page .main {
+    margin-right: 10px;
+    flex: 1;
+}
+
+.home-page .sidebar {
+    width: 300px;
+}
+
+.home-page .inner-tab {
+    border-bottom: solid 1px #eeeeee;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.home-page .inner-tab a {
+    color: #000000;
+    font-weight: bold;
+    margin-right: 20px;
+    text-decoration: none;
+}
